@@ -1,0 +1,1 @@
+/root/.vim/janus/vim/vimrc

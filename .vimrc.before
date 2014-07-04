@@ -1,0 +1,22 @@
+imap jj <ESC>
+
+au BufRead,BufNewFile *.fountain     set filetype=fountain
+
+nmap JJ :wincmd j<cr>
+nmap KK :wincmd k<cr>
+nmap LL :wincmd l<cr>
+nmap LL :wincmd h<cr>
+
+let mapleader = ","
+
+noremap <leader>ev :sp ~/.vimrc.before<CR>
+
+map <C-n> :NERDTreeToggle<CR>
+
+" create new lines the normal way
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
+colorscheme solarized
+
+" let g:solarized_termcolors=256
+set background=dark
